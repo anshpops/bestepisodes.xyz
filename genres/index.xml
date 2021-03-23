@@ -6,7 +6,34 @@
     <description>Recent content in Genres on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Mar 2021 17:02:58 +0530</lastBuildDate><atom:link href="https://bestepisodes.xyz/genres/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 18:40:02 +0530</lastBuildDate><atom:link href="https://bestepisodes.xyz/genres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>action</title>
+      <link>https://bestepisodes.xyz/genres/action/</link>
+      <pubDate>Tue, 23 Mar 2021 18:40:02 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/genres/action/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animation</title>
+      <link>https://bestepisodes.xyz/genres/animation/</link>
+      <pubDate>Tue, 23 Mar 2021 18:40:02 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/genres/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anime</title>
+      <link>https://bestepisodes.xyz/genres/anime/</link>
+      <pubDate>Tue, 23 Mar 2021 18:40:02 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/genres/anime/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>drama</title>
       <link>https://bestepisodes.xyz/genres/drama/</link>
@@ -53,24 +80,6 @@
     </item>
     
     <item>
-      <title>animation</title>
-      <link>https://bestepisodes.xyz/genres/animation/</link>
-      <pubDate>Fri, 19 Mar 2021 16:40:47 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/genres/animation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>anime</title>
-      <link>https://bestepisodes.xyz/genres/anime/</link>
-      <pubDate>Fri, 19 Mar 2021 16:40:47 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/genres/anime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>fantasy</title>
       <link>https://bestepisodes.xyz/genres/fantasy/</link>
       <pubDate>Fri, 19 Mar 2021 16:40:47 +0530</pubDate>
@@ -85,15 +94,6 @@
       <pubDate>Fri, 19 Mar 2021 15:06:21 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/genres/documentary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>action</title>
-      <link>https://bestepisodes.xyz/genres/action/</link>
-      <pubDate>Fri, 19 Mar 2021 14:26:41 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/genres/action/</guid>
       <description></description>
     </item>
     

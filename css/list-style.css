@@ -1,0 +1,736 @@
+:root {
+    --heading: 45px;
+    --sub-heading: 30px;
+    --base-color: #081118;
+    --primary-color: #0A1016;
+    --primary-background-color: #1e2329;
+    --secondary-background-color: #212f3c;
+    --primary-text-color: #e6e6e6;
+    --secondary-text-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-size: 17px;
+    font-family: "Lato", Arial, sans-serif;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--secondary-text-color);
+}
+
+/*---------- Header Component--------------*/
+
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container-header {
+    justify-content: space-between;
+}
+
+.main-header, .container-header {
+    height: 61px;
+} 
+
+.main-header {
+    background-color: var(--base-color);
+    z-index: 1;
+    position: relative;
+}
+
+.logo {
+    margin-top: 12px;
+    width: auto;
+    height: 35px;
+    margin-left: 51px;
+}
+/* From here i started header navigation */
+.container-header {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Header navigation starts here */
+
+.main-menu {
+    /* given the same height as .main-header so that the nav gets height same as its parent and nave gets started from inside the header as we have done justify content as center for the whole header elements so without height nav items gets centered to the whole header items and you can see that if we disable the height of .main-header, the header extends full to encompass the nav as well.*/
+    height: 61px;
+    display:flex;
+    align-items: center;
+    margin-right: 85px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown ul, .main-menu {
+    list-style: none;
+}
+
+.sub-menu {
+    position: absolute;
+    background: var(--primary-background-color);
+    margin-top: 15px;
+    width: 140px;
+    border-radius: 5px;
+    display: none;
+   
+}
+
+/*---------------- transform -----------
+.sub-menu {
+    transition: all 0.4s ease;
+    transform: translateY(-10px);
+}
+
+.main-menu > li > a:hover + .sub-menu {
+    transform: translateY(0px);
+}
+
+-----------------transform-end------------------*/
+
+.main-menu > li:not(:last-child) {
+    margin-right: 3px;
+}
+
+.sub-menu-list a {
+    display: block;
+    padding: 10px 0 10px 15px;
+}
+
+.main-menu > li {
+    padding: 15px 0px;
+}
+
+.main-menu > li > a {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-menu > li > a:hover {
+    background-color: var(--primary-background-color);
+}
+
+.sub-menu-list:hover {
+    background-color: var(--primary-color);
+}
+
+.main-menu > li:hover .sub-menu, .main-menu > li:active .sub-menu {
+    display: block;
+}
+
+.nav-toggle, .nav-toggle-label {
+    display:none;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .body-search {
+        display: block !important;
+        margin: 1.115rem auto 0 auto;
+        width: 75%;
+        height: 2rem;
+        padding-left: 10px; 
+        font-size: inherit;
+        border-radius: 5px;
+        border: 0px;
+        position: relative;
+    }
+
+    .results-narrow {
+        position: absolute;
+        left: 12.5%;
+        margin: auto;
+        width:75%;
+        z-index: 9;
+    }
+
+    .header-search-div {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+  
+    /*------- menu ---------*/
+    .main-menu {
+        all: unset;
+        list-style: none;
+    }
+
+    .main-menu > li:hover .sub-menu {
+        display: none;
+    }
+    .container-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .nav-toggle-label {
+        display: block;
+        font-size: 23px;
+        margin-right: 20px;
+    }
+
+    .main-menu-nav {
+        position: absolute;
+        top:100%;
+        width: 100%;
+        text-align: center;
+        display: none;
+        background-color: var(--base-color);
+    }
+    /*-- (~) looks for the sibling, the first sibling after it. In this case, ~ is looking for the first sibling after nav-toggle, which is navigation menu*/
+    .nav-toggle:checked ~ .main-menu-nav {
+        display: block;
+    }
+
+    /*---------- menu end ---------------*/
+    /*----------- */
+
+}
+
+.header-search {
+    width: 100%;
+    height: 2rem;
+    padding-left: 10px; 
+    font-size: inherit;
+    border: 0px;
+}
+
+.header-search-div {
+    width: 33.33%;
+    margin-top: 14px;
+}
+
+/*------------- search dropdown ------------*/
+
+.res {
+    background-color: var(--primary-background-color);
+    margin:auto;
+}
+
+.res:not(:first-of-type) {
+    border-top: 0.5px solid var(--base-color); 
+}
+
+.res:last-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.res-heading {
+    padding: 15px 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/*------------ search dropdown end ----------*/
+
+/*------- upper one comes in header section--------*/
+
+/*------------ Beginning of list page layout excluding header and footer styling -----------  */
+
+.body-search {
+    display: none;
+}
+
+.list-body {
+    background-color: var(--primary-color);
+}
+
+.secondary-container {
+    width: 100%;
+    max-width: 1183px;
+    background-color: var(--primary-background-color);
+    margin: 35px auto 0 auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.list-main {
+    width: 100%;
+    max-width: 793px;
+}
+
+.list-heading {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 58px auto 5px 58px;
+}
+
+.list-img {
+    width: 130px;
+    border-radius: 10px;
+}
+
+.list-article {
+    display: flex;
+    align-items: flex-start;
+    padding: 35px 30px 35px 0;
+    margin-left: 58px;
+    position: relative;
+}
+
+.list-article::after{
+    position: absolute;
+    content: "";
+    width: 95%;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin-bottom: -2px;
+    top: 100%
+}
+
+.list-article:last-child {
+    padding: 35px 30px 50px 0;
+}
+
+.list-article:last-child::after {
+    height: 0px;
+}
+
+.list-content {
+    margin-left: 20px;
+    width: 100%;
+    max-width: 70%;
+}
+
+.list-second-heading {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.list-quote, .list-span {
+    margin-top: 6px;
+    font-weight: 300;
+}
+
+.list-span span:nth-child(even) {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.list-ott {
+    margin-top: 9px;
+}
+
+.list-ott img {
+    width: 70px;
+    margin-top: 12px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+.list-aside {
+    width: 100%;
+    max-width: 32.9%;
+    position: relative;
+}
+
+.list-aside::after {
+    content: "";
+    width: 2px;
+    height: 77%;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-left: -2px;
+    top: 141px;
+
+}
+
+.list-aside-seventyeightpercent {
+    width: 100%;
+    max-width: 32.9%;
+    position: relative;
+}
+
+.list-aside-seventyeightpercent::after {
+    content: "";
+    width: 2px;
+    height: 78%;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-left: -2px;
+    top: 141px;
+
+}
+
+.list-aside-eightyfivepercent {
+    width: 100%;
+    max-width: 32.9%;
+    position: relative;
+}
+
+.list-aside-eightyfivepercent::after {
+    content: "";
+    width: 2px;
+    height: 85%;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-left: -2px;
+    top: 141px;
+
+}
+
+.list-aside-eightyninepercent {
+    width: 100%;
+    max-width: 32.9%;
+    position: relative;
+}
+
+.list-aside-eightyninepercent::after {
+    content: "";
+    width: 2px;
+    height: 89%;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-left: -2px;
+    top: 141px;
+
+}
+
+.list-aside-ninetyonepercent {
+    width: 100%;
+    max-width: 32.9%;
+    position: relative;
+}
+
+.list-aside-ninetyonepercent::after {
+    content: "";
+    width: 2px;
+    height: 91%;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-left: -2px;
+    top: 141px;
+
+}
+
+.list-aside-ninetytwopercent {
+    width: 100%;
+    max-width: 32.9%;
+    position: relative;
+}
+
+.list-aside-ninetytwopercent::after {
+    content: "";
+    width: 2px;
+    height: 92%;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-left: -2px;
+    top: 141px;
+
+}
+
+.list-aside-ninetythreepercent {
+    width: 100%;
+    max-width: 32.9%;
+    position: relative;
+}
+
+.list-aside-ninetythreepercent::after {
+    content: "";
+    width: 2px;
+    height: 93%;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-left: -2px;
+    top: 141px;
+
+}
+
+.list-aside-ninetyfourpercent {
+    width: 100%;
+    max-width: 32.9%;
+    position: relative;
+}
+
+.list-aside-ninetyfourpercent::after {
+    content: "";
+    width: 2px;
+    height: 94%;
+    background-color: var(--primary-color);
+    position: absolute;
+    margin-left: -2px;
+    top: 141px;
+
+}
+
+.list-definition {
+    margin-top: 141px;
+    margin-left: 40px;
+}
+
+.list-term {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.list-dd {
+    background-color: var(--secondary-background-color);
+    margin-bottom: 2px;
+    height: 48px;
+}
+
+.list-dd a {
+    display: block;
+    padding: 14px 0 12.5px 41px;
+}
+
+.list-dd:nth-of-type(1) {
+    border-top-left-radius: 5px;
+}
+
+.list-dd:nth-of-type(9) {
+    border-bottom-left-radius: 5px;
+}
+
+.list-dd a:hover {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+
+/*----------------- Pagination --------------------*/
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 0;
+    justify-content: center;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .75rem 1rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fff;
+    background-color: var(--secondary-background-color);
+}
+
+.page-item.disabled .page-link {
+    color: rgb(197, 196, 196);
+    pointer-events: none;
+    cursor: auto;
+    background-color: var(--secondary-background-color);
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+/* --------Footer Component-------*/
+
+.footer {
+    margin-top: 50px; 
+    background-color:#353535;
+}
+
+.rows {
+    display: flex;
+    margin: 0px 3rem 20px 3rem;
+    justify-content: space-between;
+}
+
+.column-1, .column-3 {
+    max-width: 33.3%;
+}
+
+.column-1 {
+    margin-top: 2.23rem;
+}
+
+.column-1 p {
+    margin-top: 1rem;
+}
+
+.column-2 h4 {
+    font-size: 1.17rem;
+    font-weight: 500;
+    margin: 2.4rem 0px 1rem 0px;
+}
+
+.column-2 li {
+    list-style-type: none;
+    text-align: left;
+    line-height: 1.5rem;  
+}
+
+.column-3 {
+    margin-top: 3rem;
+}
+
+.footer-logo {
+    width: 160px;
+}
+
+.copy-footer {
+    background-color: #2c2c2c;
+    padding: 10px;
+    text-align: center;
+}
+/* --------End of Footer Component-------*/
+
+a:hover {
+    color: blueviolet;
+}
+
+a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+/*-------- responsive ------------*/
+
+@media (max-width: 1000px) {
+    .secondary-container {
+        flex-direction: column-reverse;
+    }
+
+    .list-article, .list-content {
+        max-width: 100%;
+    }
+
+    .list-aside-ninetyfourpercent, .list-aside-ninetythreepercent, .list-aside-ninetytwopercent, .list-aside-ninetyonepercent, .list-aside-eightyninepercent, .list-aside-eightyfivepercent, .list-aside-eightyfivepercent, .list-aside-seventyeightpercent, .list-aside {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .list-term {
+        margin-right: 10px;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    .list-dd a {
+        padding: 5px 10px 6px 10px;
+    }
+    
+    .list-definition {
+        margin-top: 0px;
+        
+    }
+    
+    .list-aside-ninetyfourpercent::after, .list-aside-ninetythreepercent::after, .list-aside-ninetytwopercent::after, .list-aside-ninetyonepercent::after, .list-aside-eightyninepercent::after, .list-aside-eightyfivepercent::after, .list-aside-eightyfivepercent::after, .list-aside-seventyeightpercent::after, .list-aside::after {
+        display:none;
+    }
+
+    .list-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list-dd {
+        border-radius: 5px;
+        margin-right: 5px;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .list-heading {
+        margin-top: 0px;
+    }
+
+}
+
+
+@media (max-width: 530px) {
+
+    .list-article {
+        margin-left: 30px;
+    }
+
+    .list-heading {
+        margin-left:30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .list-article {
+        flex-direction: column;
+    }
+
+    .list-img {
+        width: 100%;
+        height: 25vh;
+        object-fit: cover;
+    }
+
+    .list-content {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .list-definition {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+}
+
+
+
+/* ------ footer responsive ------*/
+
+@media (max-width: 690px) {
+
+    .rows {
+        flex-direction: column;
+        margin: 0px 1rem 20px 2rem;
+    }
+
+    .column-2 h4 {
+        font-weight: 600;
+        margin: 0 20px 0 0;
+    }
+
+    .column-1, .column-2, .column-3 {
+        max-width: 100%;
+    }
+
+    .column-2, .column-3 {
+        margin-top: 20px;
+    }
+
+    .column-2, .column-2 ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .column-2 li:not(:last-child) {
+        margin-right: 5px;
+        padding-right: 5px;
+        border-right: 1px solid gray;
+    }
+
+}

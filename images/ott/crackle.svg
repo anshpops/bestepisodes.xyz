@@ -1,0 +1,29 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 110 55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="13.75" y1="68.75" x2="96.25" y2="-13.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff5914"/>
+      <stop offset="1" stop-color="#ff8c17"/>
+    </linearGradient>
+  </defs>
+  <title>Crackle</title>
+  <rect class="cls-1" width="110" height="55"/>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path id="_Path_" data-name="&lt;Path&gt;" class="cls-2" d="M14.17,27.51c0-2.48,1.72-4.49,5-4.49h2.14V19.6h-3a7.91,7.91,0,0,0,0,15.82h3V32H19.22C15.89,32,14.17,30,14.17,27.51Z"/>
+    <path id="_Path_2" data-name="&lt;Path&gt;" class="cls-2" d="M54.76,27.51C54.76,25,56.48,23,59.81,23H62V19.6h-3a7.91,7.91,0,0,0,0,15.82h3V32H59.81C56.48,32,54.76,30,54.76,27.51Z"/>
+    <path id="_Path_3" data-name="&lt;Path&gt;" class="cls-2" d="M34.85,24.81c0-3.71-2.65-5.21-5.89-5.21H22.82V35.42h3.54V22.59h2.51c1.56,0,2.66.88,2.63,2.36a2.5,2.5,0,0,1-2.59,2.35H27l4.69,8.12h3.72l-3.53-6A4.52,4.52,0,0,0,34.85,24.81Z"/>
+    <polygon id="_Path_4" data-name="&lt;Path&gt;" class="cls-2" points="82.29 19.58 78.42 19.58 78.42 35.43 88.25 35.43 88.25 32.01 82.29 32.01 82.29 19.58"/>
+    <polygon id="_Path_5" data-name="&lt;Path&gt;" class="cls-2" points="93.32 32.07 93.32 29.06 98.59 29.06 98.59 25.7 93.32 25.7 93.32 22.97 99.39 22.97 99.39 19.57 89.45 19.57 89.45 35.43 99.58 35.43 99.58 32.07 93.32 32.07"/>
+    <polygon id="_Path_6" data-name="&lt;Path&gt;" class="cls-2" points="72.72 19.57 67.94 27.33 72.77 35.42 77.5 35.42 72.15 27.35 77.5 19.57 72.72 19.57"/>
+    <rect id="_Path_7" data-name="&lt;Path&gt;" class="cls-2" x="63.41" y="19.58" width="3.94" height="15.85"/>
+    <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-2" d="M41.27,19.58,35.93,35.4h4L41,32h5.54l1.15,3.45h4L46.43,19.58Zm.63,9.31,1.92-6,1.88,6Z"/>
+  </g>
+</svg>

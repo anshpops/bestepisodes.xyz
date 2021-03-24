@@ -6,22 +6,103 @@
     <description>Recent content in Network on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 23:00:33 +0530</lastBuildDate><atom:link href="https://bestepisodes.xyz/network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 10:54:49 +0530</lastBuildDate><atom:link href="https://bestepisodes.xyz/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>usa</title>
-      <link>https://bestepisodes.xyz/network/usa/</link>
-      <pubDate>Tue, 23 Mar 2021 23:00:33 +0530</pubDate>
+      <title>cbs</title>
+      <link>https://bestepisodes.xyz/network/cbs/</link>
+      <pubDate>Wed, 24 Mar 2021 10:54:49 +0530</pubDate>
       
-      <guid>https://bestepisodes.xyz/network/usa/</guid>
+      <guid>https://bestepisodes.xyz/network/cbs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comedy-central</title>
+      <link>https://bestepisodes.xyz/network/comedy-central/</link>
+      <pubDate>Wed, 24 Mar 2021 10:46:14 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/comedy-central/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nbc</title>
       <link>https://bestepisodes.xyz/network/nbc/</link>
-      <pubDate>Tue, 23 Mar 2021 22:51:50 +0530</pubDate>
+      <pubDate>Wed, 24 Mar 2021 10:24:15 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/network/nbc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fox</title>
+      <link>https://bestepisodes.xyz/network/fox/</link>
+      <pubDate>Wed, 24 Mar 2021 10:14:02 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/fox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paramount</title>
+      <link>https://bestepisodes.xyz/network/paramount/</link>
+      <pubDate>Wed, 24 Mar 2021 10:14:02 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/paramount/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trutv</title>
+      <link>https://bestepisodes.xyz/network/trutv/</link>
+      <pubDate>Wed, 24 Mar 2021 10:14:02 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/trutv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cartoon-network</title>
+      <link>https://bestepisodes.xyz/network/cartoon-network/</link>
+      <pubDate>Wed, 24 Mar 2021 09:41:01 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/cartoon-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>espn</title>
+      <link>https://bestepisodes.xyz/network/espn/</link>
+      <pubDate>Wed, 24 Mar 2021 09:32:02 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/espn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tv-tokyo</title>
+      <link>https://bestepisodes.xyz/network/tv-tokyo/</link>
+      <pubDate>Wed, 24 Mar 2021 09:15:33 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/tv-tokyo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>abc</title>
+      <link>https://bestepisodes.xyz/network/abc/</link>
+      <pubDate>Wed, 24 Mar 2021 08:46:59 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/abc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>usa</title>
+      <link>https://bestepisodes.xyz/network/usa/</link>
+      <pubDate>Tue, 23 Mar 2021 23:00:33 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/network/usa/</guid>
       <description></description>
     </item>
     
@@ -40,33 +121,6 @@
       <pubDate>Tue, 23 Mar 2021 22:20:05 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/network/tokyo-mx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>comedy-central</title>
-      <link>https://bestepisodes.xyz/network/comedy-central/</link>
-      <pubDate>Tue, 23 Mar 2021 20:32:27 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/network/comedy-central/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>abc</title>
-      <link>https://bestepisodes.xyz/network/abc/</link>
-      <pubDate>Tue, 23 Mar 2021 20:22:13 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/network/abc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fox</title>
-      <link>https://bestepisodes.xyz/network/fox/</link>
-      <pubDate>Tue, 23 Mar 2021 20:12:24 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/network/fox/</guid>
       <description></description>
     </item>
     
@@ -103,24 +157,6 @@
       <pubDate>Fri, 19 Mar 2021 17:02:58 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/network/own/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cbs</title>
-      <link>https://bestepisodes.xyz/network/cbs/</link>
-      <pubDate>Fri, 19 Mar 2021 16:53:43 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/network/cbs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tv-tokyo</title>
-      <link>https://bestepisodes.xyz/network/tv-tokyo/</link>
-      <pubDate>Fri, 19 Mar 2021 16:40:47 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/network/tv-tokyo/</guid>
       <description></description>
     </item>
     
@@ -242,15 +278,6 @@
     </item>
     
     <item>
-      <title>cartoon-network</title>
-      <link>https://bestepisodes.xyz/network/cartoon-network/</link>
-      <pubDate>Fri, 12 Mar 2021 08:26:40 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/network/cartoon-network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>showtime</title>
       <link>https://bestepisodes.xyz/network/showtime/</link>
       <pubDate>Fri, 12 Mar 2021 07:34:37 +0530</pubDate>
@@ -265,15 +292,6 @@
       <pubDate>Fri, 12 Mar 2021 07:08:05 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/network/ifc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paramount</title>
-      <link>https://bestepisodes.xyz/network/paramount/</link>
-      <pubDate>Fri, 12 Mar 2021 06:54:14 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/network/paramount/</guid>
       <description></description>
     </item>
     
@@ -373,15 +391,6 @@
       <pubDate>Wed, 10 Mar 2021 13:12:06 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/network/animal-planet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trutv</title>
-      <link>https://bestepisodes.xyz/network/trutv/</link>
-      <pubDate>Wed, 10 Mar 2021 09:18:38 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/network/trutv/</guid>
       <description></description>
     </item>
     

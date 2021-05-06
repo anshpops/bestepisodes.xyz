@@ -6,20 +6,47 @@
     <description>Recent content in Genres on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Mar 2021 00:12:37 +0530</lastBuildDate><atom:link href="https://bestepisodes.xyz/genres/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 19:09:44 +0530</lastBuildDate><atom:link href="https://bestepisodes.xyz/genres/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>action</title>
       <link>https://bestepisodes.xyz/genres/action/</link>
-      <pubDate>Fri, 26 Mar 2021 00:12:37 +0530</pubDate>
+      <pubDate>Tue, 30 Mar 2021 19:09:44 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/genres/action/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>adventure</title>
+      <link>https://bestepisodes.xyz/genres/adventure/</link>
+      <pubDate>Tue, 30 Mar 2021 19:09:44 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/genres/adventure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drama</title>
+      <link>https://bestepisodes.xyz/genres/drama/</link>
+      <pubDate>Tue, 30 Mar 2021 19:09:44 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/genres/drama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animation</title>
+      <link>https://bestepisodes.xyz/genres/animation/</link>
+      <pubDate>Sat, 27 Mar 2021 14:37:25 +0530</pubDate>
+      
+      <guid>https://bestepisodes.xyz/genres/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>comedy</title>
       <link>https://bestepisodes.xyz/genres/comedy/</link>
-      <pubDate>Fri, 26 Mar 2021 00:12:37 +0530</pubDate>
+      <pubDate>Sat, 27 Mar 2021 14:37:25 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/genres/comedy/</guid>
       <description></description>
@@ -71,15 +98,6 @@
     </item>
     
     <item>
-      <title>animation</title>
-      <link>https://bestepisodes.xyz/genres/animation/</link>
-      <pubDate>Thu, 25 Mar 2021 22:49:16 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/genres/animation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>horror</title>
       <link>https://bestepisodes.xyz/genres/horror/</link>
       <pubDate>Thu, 25 Mar 2021 21:13:36 +0530</pubDate>
@@ -112,15 +130,6 @@
       <pubDate>Thu, 25 Mar 2021 19:12:41 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/genres/crime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>drama</title>
-      <link>https://bestepisodes.xyz/genres/drama/</link>
-      <pubDate>Thu, 25 Mar 2021 19:12:41 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/genres/drama/</guid>
       <description></description>
     </item>
     
@@ -166,15 +175,6 @@
       <pubDate>Tue, 23 Mar 2021 22:51:50 +0530</pubDate>
       
       <guid>https://bestepisodes.xyz/genres/romance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>adventure</title>
-      <link>https://bestepisodes.xyz/genres/adventure/</link>
-      <pubDate>Tue, 23 Mar 2021 19:53:25 +0530</pubDate>
-      
-      <guid>https://bestepisodes.xyz/genres/adventure/</guid>
       <description></description>
     </item>
     
